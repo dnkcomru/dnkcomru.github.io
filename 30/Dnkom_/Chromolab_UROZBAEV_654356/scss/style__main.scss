@@ -1,0 +1,105 @@
+// -------------------Main(Следующая страница)
+.main {
+    padding: 0;
+    display: block;
+    .main__title {
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding: 25px 0;
+    }
+    .main__result {
+        .name {
+            margin-bottom: 15px;
+        }
+        .line {
+            font-size: 16px;
+            .colum_1 {
+                padding: 7px 0;
+                width: 200px;
+                display: inline-block;
+            }
+            .colum_2 {
+                padding: 7px 0;
+                display: block;
+                width: auto;
+                display: inline-block;
+                a {
+                    margin-left: 21px;
+                    text-decoration: underline;
+                    color: #cc0000;
+                }
+            }
+        }
+    }
+}
+.ready {
+    padding: 10px 0;
+    .row_1{
+        display: flex;
+        align-items: stretch;
+        .text {
+            margin-left: 10px;
+        }
+    }
+    .mazok {
+        padding: 10px 0;
+    }
+    .mail {
+        display: flex;
+        .mail__text {
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }  
+    }
+    .pcp {
+        border-top: rgb(167, 167, 167) 1px solid;
+        font-style: italic;
+        background: aliceblue;
+        padding: 26px;
+        padding-right: 5px;
+        .text_1{
+            margin-bottom: 10px;
+        }
+    }
+}
+@media screen and (max-width:750px) {
+    .main {
+        padding: 0;
+        display: block;
+        .main__title {
+            padding: 25px 0;
+        }
+        .main__result {
+            .name {
+                margin-bottom: 15px;
+            }
+            .line {
+                display: flex;
+                flex-direction: column;
+                font-size: 16px;
+                .colum_1 {
+                    font-weight: 700;
+                    display: block;
+                    padding: 7px 0;
+                    width: auto;
+                    display: inline-block;
+                }
+                .colum_2 {
+                    display: block;
+                    padding: 7px 0;
+                    padding-top: 0;
+                    display: block;
+                    width: auto;
+                    display: inline-block;
+                    a {
+                        display: block;
+                        margin-left: 0;
+                        text-decoration: underline;
+                        color: #cc0000;
+                    }
+                }
+            }
+        }
+    }
+    
+}
