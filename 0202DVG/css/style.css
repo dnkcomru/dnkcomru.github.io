@@ -1,3 +1,6 @@
+.tick__img {
+    max-width: 100px;
+}
 body {
   font-size: 16px;
   font-family: DINpro,Helvetica,Arial,sans-serif;
