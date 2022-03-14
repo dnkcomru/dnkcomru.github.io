@@ -1,0 +1,126 @@
+.main {
+  padding: 0;
+  display: block;
+}
+
+.main .main__title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 25px 0;
+}
+
+.main .main__result .name {
+  margin-bottom: 15px;
+}
+
+.main .main__result .line {
+  font-size: 16px;
+}
+
+.main .main__result .line .colum_1 {
+  padding: 7px 0;
+  width: 200px;
+  display: inline-block;
+}
+
+.main .main__result .line .colum_2 {
+  padding: 7px 0;
+  display: block;
+  width: auto;
+  display: inline-block;
+}
+
+.main .main__result .line .colum_2 a {
+  margin-left: 21px;
+  text-decoration: underline;
+  color: #cc0000;
+}
+
+.ready {
+  padding: 10px 0;
+}
+
+.ready .row_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.ready .row_1 .text {
+  margin-left: 10px;
+}
+
+.ready .mazok {
+  padding: 10px 0;
+}
+
+.ready .mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ready .mail .mail__text {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.ready .pcp {
+  border-top: #a7a7a7 1px solid;
+  font-style: italic;
+  background: aliceblue;
+  padding: 26px;
+  padding-right: 5px;
+}
+
+.ready .pcp .text_1 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .main {
+    padding: 0;
+    display: block;
+  }
+  .main .main__title {
+    padding: 25px 0;
+  }
+  .main .main__result .name {
+    margin-bottom: 15px;
+  }
+  .main .main__result .line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 16px;
+  }
+  .main .main__result .line .colum_1 {
+    font-weight: 700;
+    display: block;
+    padding: 7px 0;
+    width: auto;
+    display: inline-block;
+  }
+  .main .main__result .line .colum_2 {
+    display: block;
+    padding: 7px 0;
+    padding-top: 0;
+    display: block;
+    width: auto;
+    display: inline-block;
+  }
+  .main .main__result .line .colum_2 a {
+    display: block;
+    margin-left: 0;
+    text-decoration: underline;
+    color: #cc0000;
+  }
+}
+/*# sourceMappingURL=style__main.css.map */
